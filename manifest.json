@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ludoplex.omamarket-jetbrains",
+  "name": "Omamarket JetBrains Marketplace",
+  "version": "0.1.0",
+  "author": "Mighty House Inc",
+  "license": "MIT",
+  "description": "JetBrains Marketplace from the bar. The publisher's own listings are shown first, labeled; the store's results follow in native order (downloads). One-lane edition of Omamarket.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Omamarket JetBrains Marketplace",
+    "description": "JetBrains Marketplace storefront with a disclosed pinned block",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
